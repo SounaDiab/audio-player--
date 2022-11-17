@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Custom HTML Audio Player</title>
+    <link rel="stylesheet" href="player.css"/>
+  </head>
+  <body>
+    <div class="bg-container">
+      <img src="" alt="" id="background">
+    </div>
+    <div id="aWrap">
+      <!-- TOP BAR -->
+      <div class="top-bar">
+        <button onclick="open_p()" class="open"><img src="icon/menu-alt-left.png" alt="" id="img1"></button>
+      </div>
+
+      <!-- (A) PLAY/PAUSE BUTTON -->
+      <div class="main_btns">
+        <button class="previous" id="previous" title="previous"><img src="icon/skip-previous.png" alt="previous"></button>
+        <button id="aPlay" disabled>
+          <img src="icon/play.png" alt="play" class="playy">
+          <img src="icon/pause.png" alt="pause" class="pausee">
+        </button>
+        <button class="next" id="next" title="next"><img src="icon/skip-next.png" alt="next"></button>
+      </div>
+      <div class="img">
+        <img src="pic/دعاء الافتتاح.jpeg" alt="" id="cover">
+      </div>
+      <h2 id="title"></h2>
+      <h3 id="artist"></h3>
+
+      <!-- (C) SEEK BAR -->
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span id="current-time"></span>
+          <span id="duration"></span>
+        </div>
+      </div>
+
+      <!-- (D) VOLUME SLIDE -->
+      <div class="knob-container">
+        <div class="knob"></div>
+      </div>
+      <div class="prog-container">
+        <div class="progress1">
+          <div></div>
+        </div>
+        <span class="percent">0%</span>
+      </div>
+
+      <!-- (E) PLAYLIST -->
+      <div class="playlist">
+        <div id="aList"></div>
+      </div>   
+    </div>
+
+    <script defer src="player.js"></script>
+  </body>
+</html>
