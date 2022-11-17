@@ -81,7 +81,7 @@ window.addEventListener("DOMContentLoaded", () => {
   function nextSong() {
     songIndex++;
     if (songIndex > playlist.length - 1) {
-      songIndex = playlist[0];
+      songIndex = 0;
     }
     loadSongs(playlist[songIndex]);
     playSong();
