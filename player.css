@@ -45,6 +45,7 @@
   border-radius: 18px;
   background: #566573;
   overflow: hidden;
+  transform: translate(-50%,-50%);
 }
 
 /* (C) PLAY/PAUSE BUTTON */
