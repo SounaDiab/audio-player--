@@ -359,9 +359,12 @@
   left: 100px;
   text-shadow: 0 0px 10px #349beb;
 }
-@media (max-width: 500px){
-  #aWrap{
-    transform: translate(70%,80%);
+
+/* Start Media */
+@media (max-width: 500px) {
+  .aWrap{
+    transform: translate(40%,60%);
   }
 }
+/* End Media */
   
