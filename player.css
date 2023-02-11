@@ -34,7 +34,7 @@
 }
 
 /* (B) WRAPPER */
-#aWrap {
+.aWrap {
   font-family: arial, sans-serif;
   box-sizing: border-box;
   padding: 10px;
@@ -363,8 +363,10 @@
 /* Start Media */
 @media (max-width: 500px) {
   .aWrap{
-    transform: translate(40%,60%);
+    transform: translate(0);
   }
 }
 /* End Media */
+
+
   
